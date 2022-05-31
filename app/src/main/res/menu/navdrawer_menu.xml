@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/fragment_about_title"
+        android:id="@+id/aboutFragment"/>
+    <item
+        android:title="@string/fragment_rule_title"
+        android:id="@+id/ruleFragment"/>
+</menu>

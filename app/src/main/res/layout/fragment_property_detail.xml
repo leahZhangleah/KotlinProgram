@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="marsProperty"
+            type="com.leahhumlelu.kotlinprogram.realestate.MarsProperty" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".realestate.PropertyDetailFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/detail_property_img"
+        android:layout_margin="@dimen/margin"
+        imageSrcUrl="@{marsProperty.imgUrl}"/>
+    <TextView
+        android:id="@+id/detail_property_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@{String.valueOf(marsProperty.price)}"/>
+    <TextView
+        android:id="@+id/detail_property_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@{marsProperty.type}"/>
+</LinearLayout>
+</layout>

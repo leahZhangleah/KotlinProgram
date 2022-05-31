@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">KotlinProgram</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_title_fragment">Hello title fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="play_btn_text">Play</string>
+    <string name="play_quiz_btn_text">Play Quiz</string>
+    <string name="record_sleep_text">Record Sleep</string>
+    <string name="real_estate_btn_txt">Real Estate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="odd_result_text">The dice is odd</string>
+    <string name="even_result_text">The dice is even</string>
+    <string name="fragment_about_title">About</string>
+    <string name="fragment_rule_title">Rule</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_fragment_txt">This is an about fragment</string>
+    <string name="rule_fragment_txt">This is a rule fragment</string>
+    <string name="share">Share</string>
+    <string name="share_success_text">Share successfully: %1$d</string>
+    <string name="skip_btn_txt">Skip</string>
+    <string name="correct_btn_txt">correct</string>
+    <string name="quiz_finish_txt">Quiz Finished!</string>
+    <string name="format_word">"%s"</string>
+    <string name="format_score">Current Score:%d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Button labels -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="clear">Clear</string>
+
+    <!-- contentDescription strings for quality icons -->
+    <string name="quality_0">Sleep Quality 0</string>
+    <string name="quality_1">Sleep Quality 1</string>
+    <string name="quality_2">Sleep Quality 2</string>
+    <string name="quality_3">Sleep Quality 3</string>
+    <string name="quality_4">Sleep Quality 4</string>
+    <string name="quality_5">Sleep Quality 5</string>
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR SLEEP DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <!-- Sleep quality strings -->
+    <string name="how_was_hour_sleep">How was your sleep?</string>
+    <string name="zero_very_bad">Very bad</string>
+    <string name="one_poor">Poor</string>
+    <string name="two_soso">So-so</string>
+    <string name="three_ok">OK</string>
+    <string name="four_pretty_good">Pretty good</string>
+    <string name="five_excellent">Excellent!</string>
+
+    <!-- Toast to play after Clear button has been pressed -->
+    <string name="cleared_message">All your data is gone forever.</string>
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+    <string name="sleep_quality_fragment">SleepQualityFragment</string>
+
+    <string name="minutes_length">%d minutes on %s</string>
+    <string name="hours_length">%d hours on %s</string>
+    <string name="seconds_length">%d seconds on %s</string>
+    <string name="header_text">Sleep Results</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="show_all">Show All</string>
+    <string name="show_rent">Rent</string>
+    <string name="show_buy">Buy</string>
+    <string name="dev_byte_videos">Dev Byte Videos</string>
+</resources>

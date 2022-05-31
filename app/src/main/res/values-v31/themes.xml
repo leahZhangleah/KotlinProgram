@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Fullscreen.splash" parent="AppTheme.Fullscreen">
+        <item name="android:windowSplashScreenBackground">@color/green_color</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/totoro_icon1</item>
+        <item name="android:windowSplashScreenAnimationDuration">3000</item>
+        <item name="android:windowSplashScreenBrandingImage">@id/dragRight</item>
+    </style>
+</resources>
